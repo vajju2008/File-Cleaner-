@@ -1,2 +1,11 @@
-# File-Cleaner-
-The HR Portal’s upload endpoint was exploited using a crafted filename with path traversal, allowing overwrite and defacing the homepage. After restoring the file, defenses were added: extension allowlist secure_filenamesanitization, and randomized UUIDbased storage names. This sandboxing prevents malicious overwrites and secures the application
+I learn from this Project w
+
+Never trust user input: Attackers can bypass browser protections and craft raw HTTP requests.
+
+Path traversal is dangerous: Blindly appending filenames allows overwriting critical files.
+
+Defense in depth matters: Extension allowlists, filename sanitization, and UUID-based storage isolate uploads safely.
+
+Restore and patch quickly: Incident response requires both repairing damage and preventing recurrence.
+
+Security is proactive: Anticipating misuse is as important as building functionality.
